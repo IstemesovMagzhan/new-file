@@ -47,7 +47,9 @@ body {
 
 .navbar button:first-of-type {
   border: 1.5px solid #BCD0E5;
-  background-color: whitesmoke;
+  background-color: whitesmoke; 
+}
+.navbar button:first-of-type a:first-of-type {
   color: #173A56;
 }
 .navbar button {
@@ -55,7 +57,10 @@ body {
   margin: 0 15px 0 0;
   background-color: #02897A;
   border: none;
-  border-radius: 5px;
+  border-radius: 5px; 
+}
+.navbar button a {
+  text-decoration: none;
   color: white;
   font-size: 16px;
   font-family: 'Rubik', sans-serif;
