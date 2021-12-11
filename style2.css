@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all {
+  min-height: 80px;
+  margin-bottom: 25px;
+  /*background-color: #FFFFFF;*/
+}
+.col-2 {
+  flex: 0 0 16.666666%;
+} 
+.col-10 {
+  flex: 0 0 83.333333%;
+}
+.block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.block h1 {
+  margin: 0;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 30px;
+  padding: 0 0 0 15px;
+  color: #173A56;
+}
+.inside-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li a {
+  display: inline-block;
+  color: #22343D;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 25px 0 0;
+  line-height: 28px;
+  font-size: 16px;
+}
+.navbar ul li a:hover {
+  color: #02897A;
+}
+.active {
+  font-weight: 600;
+}
+.navbar button:first-of-type {
+  border: 1.5px solid #BCD0E5;
+  background-color: whitesmoke; 
+}
+.navbar button:first-of-type a:first-of-type {
+  color: #173A56;
+}
+.navbar button {
+  padding: 10px 25px;
+  margin: 0 25px 0 0;
+  background-color: #02897A;
+  border: none;
+  border-radius: 5px; 
+}
+.navbar button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+}
+
+
+
+
+.for-none {
+  position: absolute;
+  right: 1px;
+  top: 25px;
+  color: #173A56;
+  padding: 0 20px 0 0;
+  font-size: 30px;
+
+  display: none;
+}
+.for-menu ul {
+  list-style-type: none;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  
+  display: none;
+}
+.for-menu ul a {
+  color: #22343db2;
+  text-decoration: none;
+  font-size: 20px;
+}
+.for-menu ul a:hover {
+  color: #02897A;
+}
+.for-none:hover ul {
+  display: block; 
+}
+
+
+
+@media (max-width: 1065px) {
+  .navbar {
+  display: none;
+  }
+}
+@media (max-width: 1065px) {
+  .block {
+  padding-left: 20px;
+  }
+}
+@media (max-width: 1064px) {
+  .for-none {
+  display: block;
+  }
+}
+
+
+
+.container2 {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  
+}
+.col-5 {
+  flex: 0 0 41.66666667%;
+}
+.col-7 {
+  flex: 0 0 58.333333%;
+}
+.col-7 img {
+  width: 100%;
+  padding-bottom: 114px;
+}
+.col-5 h1 {
+  margin: 0;
+  font-family: 'Readex Pro', sans-serif;
+  color: #22343D;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  padding-top: 120px;
+}
+.col-5 p {
+  color: #22343D;;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 45px;
+}
+.col-5 button {
+  border: none;
+  background-color: #02897A;
+  border-radius: 4px;
+
+}
+.col-5 a { 
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+  padding: 15px 40px;
+}
+.col-5 .play img {
+  position: relative;
+  bottom: -3px;
+  padding: 0;
+  margin: 0;
+}
+.col-5 .play {
+  padding: 0px 0px 0px 20px;
+}
+.col-5 .after-play {
+  padding: 0 0 0px 0px;
+  color: #02897A;
+  border-bottom:2px solid #02897A;
+}
+.col-5 .play img:hover {
+  width: 23px;
+  height: 20px;
+}
+.col-5 .after-play:hover {
+  padding: 0;
+  color: #02897A;
+  text-decoration: underline 1px solid rgb(5, 137, 189);
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.block h1 {
+  margin: 0;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 30px;
+  padding: 20px 0 20px 15px;
+  color: #173A56;
+}
+
+@media (max-width: 1200px) {
+  .container2 {
+  padding: 0 15px;
+  }
+}
+@media (max-width: 880px) {
+  .container2 {
+  padding: 0 25px;
+  }
+}
+@media (max-width: 750px) {
+  .col-5 {
+    flex: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 740px) {
+  .col-7 {
+    flex: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  
+  .col-12 {
+    flex: 100%;
+    text-align: center;
+  }
+}
