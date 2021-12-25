@@ -1020,6 +1020,10 @@ body {
 }
 
 
+
+.clients {
+  padding-bottom: 150px;
+}
 .clients-coments {
   text-align: center;
   margin: 0 auto;
@@ -1074,4 +1078,133 @@ body {
 
 
 
+.about-product {
+  max-width: 968px;
+  margin: 0 auto;
+  min-height: 345px;
+  background-color: #02897A;
+  border-radius: 32px;
+  margin-bottom: 150px;
+}
+.about-product .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-produc .col-6 {
+  flex: 50%;
+}
+.compannies h2 {
+  margin: 0;
+  padding: 50px 0 0 50px;
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 49px;
+}
+.compannies button {
+  margin: 56px 0 20px 50px;
+  background-color: #FFFFFF;
+  padding: 15px 34px;
+  border-radius: 8px;
+  border: none;
+}
+.compannies button a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+  color: #02897A;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.compannies img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .compannies h2 {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+@media (max-width: 700px) {
+  .compannies button {
+    text-align: center;
+    margin-left: 0;
+  }
+}
 
+
+footer {
+  padding-bottom: 50px;
+}
+footer .col-2 {
+  flex: 0 0 25%;
+}
+
+footer .logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 28px;
+}
+footer h2 {
+  margin: 0;
+  padding-left: 15px;
+  color: #173A56;
+}
+footer h3 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #22343D;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 0 8px;
+}
+footer p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
+  color: #22343D;
+}
+footer .for-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+  margin: 34px 0 21px;
+}
+footer input {
+  border: none;
+  margin: 10px 0 10px 15px;
+}
+footer button {
+  border: none;
+  background-color: #02897A;
+  border-radius: 4px;
+}
+footer button a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  padding: 8px 15px;
+  line-height: 24px;
+  font-weight: bold;
+}
+footer .last-p {
+  text-align: center;
+  padding-top: 10px;
+}
+@media (max-width: 800px) {
+  footer .col-2 {
+    flex: 50%;
+  }
+}
+@media (max-width: 550px) {
+  footer .col-2 {
+    flex: 100%;
+    text-align: center;
+  }
+}
