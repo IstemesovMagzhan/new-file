@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 40px;
+}
+h2 {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 32px;
+}
+.h2-size-34 {
+  margin: 0;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 34px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
